@@ -9,7 +9,7 @@
 	<script type="application/x-javascript" src="chrome://tabscope/content/overlay.js" />
 
 	<popupset id="mainPopupSet">
-		<panel id="tabscope-popup" noautofocus="true" noautohide="true"
+		<panel id="tabscope-popup" noautofocus="true" noautohide="true" level="top"
 		       consumeoutsideclicks="false"
 		       onpopupshowing="TabScope.handleEvent(event);"
 		       onpopupshown="TabScope.handleEvent(event);"
